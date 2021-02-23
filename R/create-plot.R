@@ -17,7 +17,8 @@ city = "Sydney"
     filter(Location == city) %>%
     ggplot(aes(x = Temp9am, 
                y = Humidity9am)) + 
-    geom_point(col = 'red')
+    geom_point(col = 'red') + 
+    ggtitle(paste0('Temp and Humidity at 9am in ', city))
 )
 
 # Save the plot in graphics/
