@@ -20,7 +20,8 @@ city = "Sydney"
     geom_point(col = 'red', 
                shape = 2,
                size = 3) + 
-    ggtitle(paste0('Temp and Humidity at 9am in ', city))
+    ggtitle(paste0('Temp and Humidity at 9am in ', city)) +
+    theme_minimal()
 )
 
 # Save the plot in graphics/
