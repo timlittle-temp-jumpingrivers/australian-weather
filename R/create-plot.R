@@ -20,7 +20,9 @@ city = "Sydney"
     geom_point(col = 'red', 
                shape = 2,
                size = 3) + 
-    ggtitle(paste0('Temp and Humidity at 9am in ', city)) +
+    ggtitle(paste0('Temp and Humidity at 9am in ', city,
+                   ' given different wind directions')) +
+    facet_wrap(~WindDir9am) +
     theme_minimal()
 )
 
