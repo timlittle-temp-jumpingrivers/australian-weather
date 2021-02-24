@@ -30,3 +30,4 @@ city = "Sydney"
 ggsave(filename = "graphics/scatter-temp-humidity.png", plot = scatter_plot)
 
 #Testing 'git pull'
+#Testing 'git merge'
